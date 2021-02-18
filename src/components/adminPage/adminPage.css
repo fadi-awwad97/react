@@ -1,0 +1,20 @@
+.projects {
+    margin-top: 10%;
+    /* margin-left: 50%; */
+    margin-bottom: 10%;
+    /* border: 1px solid blue; */
+    width:100%;
+    opacity: 0.8;
+    box-shadow: pink;
+    
+}
+.head {
+    font-style: italic;
+    text-align: center;
+}
+.AddUser{
+    /* border:1px solid red; */
+    background-color:lightslategrey;
+    opacity:0.85;
+    
+}

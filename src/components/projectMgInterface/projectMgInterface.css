@@ -1,0 +1,44 @@
+@media all and (min-width: 480px) {
+    .Signup1 {
+      padding: 60px 0;
+      background-color: gray;
+      opacity: 0.8;
+      width:500px;
+      border-radius: 30px;
+      margin-top: 20px;
+      
+    }
+  
+    .Signup form {
+      margin: 0 auto;
+      max-width: 270px;
+      
+    }
+  }
+  .signupButton1 {
+      margin-left: 300px;
+      margin-top: 10px;
+      
+  }
+  .inputbut1{
+      background-color: grey;
+      opacity: 0.7;
+      border-color: red;
+      height: 20px;
+      margin-top: 9px;
+      margin-left: 50%;
+
+      
+  }
+  .formlable{
+      color: black;
+  }
+  .happy {
+      width:100px;
+      text-align: center;
+      text-size-adjust: 20px;
+  }
+
+  
+  
+ 

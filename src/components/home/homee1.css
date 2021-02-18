@@ -1,0 +1,156 @@
+
+body {
+    margin: 0;
+    /* overflow-y: hidden ! important;
+    overflow-x: hidden ! important; */
+    background-color: #f8f8f8;
+    background-image: url("../../assets/background.png");
+    background-attachment: fixed;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat:   no-repeat;
+    background-size:     cover;  
+
+  }
+  .container {
+    width:80%; /* % kermel tkon responsive lama z8r w kabr lpage */
+    margin:auto;
+    
+   
+  }
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  
+ .box-1 {
+    background-color: #333;
+    color:white;
+
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  
+    padding:20px;
+  
+    margin: 20px 0;
+    opacity: 0.8;
+  
+  }
+  
+  .box-1 h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+
+
+  
+ .box-2 {
+  /* background-color: #333; */
+  color:black;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  text-shadow: 2px 2px 5px rgb(194, 69, 90);
+  padding:20px;
+
+  margin: 20px 0;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  /* box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px; */
+  /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+  
+
+}
+
+.box-2 h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-transform: uppercase;
+}
+ 
+
+  .triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid rgb(211, 32, 92);
+    margin-left: 180px;
+    opacity: 0.6;
+   
+  }
+   .heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    margin-left: 180px;
+  }
+  .heart:before,
+  .heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: rgb(211, 32, 92);;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  .heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+
+
+  .title {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+    text-shadow: 1px 1px 0px palevioletred;
+    margin-left: 50px;
+  }
+
+  .main-block {
+    float: left;
+    width:50%;
+    padding:15px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    height:350px;
+    
+  }
+  .main-block-title {
+    float: left;
+    width:50%;
+    padding:15px;
+    box-sizing: border-box;
+    
+  }
+  .side-block-title {
+    float: right;
+    width: 50%;
+    padding:15px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .side-block {
+    float: right;
+    width: 49%;
+    padding:15px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    height:350px;
+  }
+  
